@@ -20,19 +20,19 @@ int valPot5;
 
 void setup()
 {
-//define servo1 start position
+//define motor1 start position
 motor1.attach(9); 
 motor1.write(90); 
-//define servo2 start position
+//define motor2 start position
 motor2.attach(6);
 motor2.write(90);
-//define servo3 start position
+//define motor3 start position
 motor3.attach(5);
 motor3.write(90); 
-//define servo4 start position
+//define motor4 start position
 motor4.attach(3);
 motor4.write(90); 
-//define servo5 start position
+//define motor5 start position
 motor5.attach(10);
 motor5.write(0); 
 }
